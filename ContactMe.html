@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>I Don't Bite, Promise!</title>
+
+    <link rel="stylesheet" href="https://use.typekit.net/siy5lii.css" />
+    <link rel="stylesheet" href="https://use.typekit.net/siy5lii.css" />
+  </head>
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      font-family: Garamond;
+      box-sizing: border-box;
+    }
+
+    .box {
+      width: 100%;
+      height: 100vh;
+      background-image: url(Images/MOREMiddle-06.png);
+      background-position: center;
+      background-size: cover;
+      display: flex;
+      position: relative;
+      align-items: center;
+      justify-content: center;
+      overflow: hidden;
+    } 
+
+    .header {
+        display: flex;
+        overflow: hidden;
+        justify-content: flex-end;
+        align-items: center;
+        padding: 5px 10%;
+        background-color: whitesmoke;
+
+      } 
+      
+    .logo {
+      width: 50px;
+      margin-right: auto;
+    }
+      
+    .header ul li {
+      list-style: none;
+      display: inline-block;
+      padding: 0px 20px;
+
+    }
+
+    nav ul li a {
+      text-decoration: none;
+      color: rgba(26,18,28,1);
+      font-size: 18px;
+      font-family: "exocet", sans-serif;
+      transition: 0.5s;
+    } 
+
+    nav ul li a:hover {
+    -webkit-text-stroke: 0.5px magenta;
+     color: transparent;
+    }
+
+    form {
+      width: 90%;
+      max-width: 600px;
+      
+    }
+
+    .contact-inputs {
+      margin-bottom: 30px;
+      position: relative;
+      gap: 90px;
+    }
+
+    input,
+    textarea {
+      width: 100%;
+      padding: 16px;
+      outline: 0;
+      border: 1px solid magenta;
+      border-radius: 15px;
+      color: rgba(26,18,28,1);
+      background: whitesmoke;
+      font-size: 15px;
+    }
+
+    input.label {
+      height: 100%;
+      position: absolute;
+      left: 0;
+      top: 0;
+      padding: 10px;
+      color:  rgba(26,18,28,1);
+      cursor: text;
+      transition: 0.2s;
+    }
+
+    button {
+      padding: 10px 8%;
+      background-color: black;
+      color: white;
+      border: none;
+      font-family: "exocet", sans-serif;
+
+      border-radius: 10px;
+      cursor: pointer;
+      margin-right: 50px;
+    }
+    button:hover {
+      background-color: magenta;
+      box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
+    }
+
+    input:focus ~ label,
+    input:valid ~ label {
+      top: -30px;
+      font-size: 18px;
+      color: magenta;
+    }
+
+    textarea:focus ~ label
+    textarea:focus ~ label {
+      top: -30px;
+      font-size: 18px;
+      color: magenta;
+    } 
+    h2 {
+      font-size: 50px;
+      color: magenta;
+      margin-bottom: 5px;
+      font-weight: 600;
+      font-family: "exocet", sans-serif;
+    }
+
+    hr {
+      border: none;
+      width: 120px;
+      height: 5px;
+      background-color: rgba(116,43,95);
+      border-radius: 10px;
+      margin-bottom: 50px;
+    }
+  </style>
+
+  <body>
+    <div class="header">
+      <img src="Images/SVG/Logo.svg" class="logo">
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="index.html#second">Gallery</button></a></li>
+          <li><a href="https://www.instagram.com/ley.motion/." target="_blank">Socials</a></li>
+          <li><a href="Images/SAV_202420_LeEmilyYou_VisIdentity_Resume.png" download>Download CV</a></li>
+        </ul>
+      </nav>
+   </div>
+<!-- Navigation Bar STOP -->
+
+    <div class="box">
+      <form action="https://api.web3forms.com/submit" method="POST">
+        <div class="label">
+          <h2>Commune with me.</h2>
+          <hr>
+        </div>
+
+          <input type="hidden" name="access_key" value="f724605f-d75d-4ec4-a2cd-49f1c720fe94">
+          
+          <input placeholder="Name" type="text" name="name" class="contact-inputs" required />
+ <!--       <label for="name">Your Name</label> -->  
+
+          <input placeholder="Email" type="email" name="email" class="contact-inputs" required />
+ <!--        <label for="email">Email</label> -->  
+
+          <textarea placeholder="Message" name ="message" rows="10" class="contact-inputs"></textarea>
+ <!--       <label for="message">Your Message</label>  -->  
+          
+          <button type="submit">Submit</button>
+
+          
+      </form>
+    </div>
+
+  </body>
+</html>

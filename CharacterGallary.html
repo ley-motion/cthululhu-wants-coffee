@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Digital-illustration</title>
+
+    <link rel="stylesheet" href="lightbox.css" />
+
+    <link rel="stylesheet" href="https://use.typekit.net/siy5lii.css" />
+    <link rel="stylesheet" href="https://use.typekit.net/siy5lii.css" />
+  </head>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: Garamond;
+    }
+
+    .container {
+      width: 100%;
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 50px 8%;
+
+      background-color: rgba(116,43,95);
+    }  
+
+    .header {
+        display: flex;
+        overflow: hidden;
+        justify-content: flex-end;
+        align-items: center;
+        padding: 5px 10%;
+        background-color:  whitesmoke;
+
+      } 
+      
+    .logo {
+      width: 50px;
+      margin-right: auto;
+    }
+      
+    .header ul li {
+      list-style: none;
+      display: inline-block;
+      padding: 0px 20px;
+
+    }
+
+    nav ul li a {
+      text-decoration: none;
+      color: rgba(26,18,28,1);
+      font-size: 18px;
+      font-family: "exocet", sans-serif;
+      transition: 0.5s;
+    } 
+
+    nav ul li a:hover {
+    -webkit-text-stroke: 0.5px magenta;
+     color: transparent;
+    }
+
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+     
+      grid-auto-flow: dense;
+      grid-gap: 30px; 
+      position: relative;
+      overflow: hidden;
+    }
+
+    .gallery img {
+      
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      transition: transform 0.5s cubic-bezier(0.165, 0.84, 0.44, 1);
+      box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+      
+    }
+  </style>
+  <body>
+    <div class="header">
+      <img src="Images/Logo_Smol.png" class="logo">
+      <nav>
+        
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="index.html#second">Gallery</button></a></li>
+          <li><a href="https://www.instagram.com/ley.motion/." target="_blank">Socials</a></li>
+          <li><a href="ContactMe.html">Contact Me!</a></li>
+          <li><a href="Images/SAV_202420_LeEmilyYou_VisIdentity_Resume.png" download>Download CV</a></li>
+        </ul>
+   </div>
+
+    <div class="container">
+      <div class="gallery">
+        <a
+          href="Portfolio Pics/Akaro-JojoOC.png"
+          data-lightbox="ill"
+          data-title="RR Series: Akaro, 2023"
+        >
+          <img src="Portfolio Pics/Akaro-JojoOC.png" />
+        </a>
+
+        <a
+          href="Portfolio Pics/goat-withoutmagic.png"
+          data-lightbox="ill"
+          data-title="Goat, 2023"
+        >
+          <img src="Portfolio Pics/goat-withoutmagic.png" />
+        </a>
+
+        <a
+          href="Portfolio Pics/CXEN4372.JPG"
+          data-lightbox="ill"
+          data-title="Fanart: Childe, 2019"
+        >
+          <img src="Portfolio Pics/CXEN4372.JPG" />
+        </a>
+
+        <a
+          href="Portfolio Pics/FSPA_motanka_V5.jpg"
+          data-lightbox="ill"
+          data-title="Motanka, 2020"
+        >
+          <img src="Portfolio Pics/FSPA_motanka_V5.jpg" />
+        </a>
+
+        <a
+          href="Portfolio Pics/Squidcardo-Redraw.png"
+          data-lightbox="ill"
+          data-title="Squidcardo, 2023"
+        >
+          <img src="Portfolio Pics/Squidcardo-Redraw.png" />
+        </a>
+
+        <a
+          href="Portfolio Pics/ArtTrade_MerV2.png"
+          data-lightbox="ill"
+          data-title="RR Series: Mermaid, 2023"
+        >
+          <img src="Portfolio Pics/ArtTrade_MerV2.png" />
+        </a>
+
+        <a
+          href="Portfolio Pics/fishbutbuff.png"
+          data-lightbox="ill"
+          data-title="Fish but Buff, 2020"
+        >
+          <img src="Portfolio Pics/fishbutbuff.png" />
+        </a>
+
+        <a
+        href="Portfolio Pics/Surrealism_FishSkewers (1).png"
+        data-lightbox="ill"
+        data-title="Fish Skewers, 2019"
+        >
+        <img src="Portfolio Pics/Surrealism_FishSkewers (1).png" />
+        </a>
+
+        <a
+        href="Portfolio Pics/FormPractice_2.png"
+        data-lightbox="ill"
+        data-title="Still Life Practice, 2023"
+        >
+        <img src="Portfolio Pics/FormPractice_2.png" />
+        </a>
+
+        <a
+          href="Portfolio Pics/Nene_paintRC1.png"
+          data-lightbox="ill"
+          data-title="Fanart: Kusanagi Nene, 2023"
+        >
+          <img src="Portfolio Pics/Nene_paintRC1.png" />
+        </a> 
+ 
+        <a
+        href="Portfolio Pics/Assurance_inspirstionFlowerBundle2.jpg"
+        data-lightbox="ill"
+        data-title="Flower Bundle, 2020"
+        >
+        <img src="Portfolio Pics/Assurance_inspirstionFlowerBundle2.jpg" />
+        </a>
+
+        <a
+        href="Portfolio Pics/PFox_300.jpg"
+        data-lightbox="ill"
+        data-title="Tamamizu, 2019"
+        >
+        <img src="Portfolio Pics/PFox_300.jpg" />
+        </a> 
+
+        <a
+        href="Portfolio Pics/concept-enviorment1.png"
+        data-lightbox="ill"
+        data-title="Whisper of Trees - Concept Enviorment, 2023"
+        >
+        <img src="Portfolio Pics/concept-enviorment1.png" />
+        </a>
+
+        <a
+        href="Portfolio Pics/Cover-WhisperofTrees.png"
+        data-lightbox="ill"
+        data-title="Whisper of Trees - Cover & Character Art, 2023"
+        >
+        <img src="Portfolio Pics/Cover-WhisperofTrees.png" />
+        </a>
+
+        <a
+        href="Portfolio Pics/1.png"
+        data-lightbox="ill"
+        data-title="Blobbos - PC Concept, 2021"
+        >
+        <img src="Portfolio Pics/1.png" />
+        </a>
+
+        <a
+        href="Portfolio Pics/4.png"
+        data-lightbox="ill"
+        data-title="Blobos - Enemy Concept, 2021"
+        >
+        <img src="Portfolio Pics/4.png" />
+        </a>
+
+        <a
+        href="Portfolio Pics/2.png"
+        data-lightbox="ill"
+        data-title="Blobos - Enviorment Tiles, 2021"
+        >
+        <img src="Portfolio Pics/2.png" />
+        </a>
+
+        <a
+        href="Portfolio Pics/3.png"
+        data-lightbox="ill"
+        data-title="Blobos - Enviorment Obstacles, 2021"
+        >
+        <img src="Portfolio Pics/3.png" />
+        </a>
+
+
+
+
+
+        <!--<img src="Portfolio Pics/goat-withoutmagic.png" />
+        <img src="Portfolio Pics/CXEN4372.JPG" />
+        <img src="Portfolio Pics/FSPA_motanka_V5.jpg" />
+        <img src="Portfolio Pics/Squidcardo-Redraw.png" />
+        <img src="Portfolio Pics/ArtTrade_MerV2.png" />
+        <img src="Portfolio Pics/fishbutbuff.png" />
+        <img src="Portfolio Pics/Nene_paintRC1.png" /> -->
+      </div>
+    </div>
+    <script src="lightbox-plus-jquery.min.js"></script>
+  </body>
+</html>

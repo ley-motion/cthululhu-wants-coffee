@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Digital-illustration</title>
+
+    <link rel="stylesheet" href="lightbox.css" />
+
+    <link rel="stylesheet" href="https://use.typekit.net/siy5lii.css" />
+    <link rel="stylesheet" href="https://use.typekit.net/siy5lii.css" />
+  </head>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: Garamond;
+    } 
+
+    .container {
+      width: 100%;
+      min-height: 100vh;
+      display: flex;
+      align-items: first baseline;
+      justify-content: center;
+      padding: 50px 8%;
+
+      background-color: rgba(116,43,95);;
+     
+
+    }  
+
+    .header {
+        display: flex;
+        overflow: hidden;
+        justify-content: flex-end;
+        align-items: center;
+        padding: 5px 10%;
+        background-color:  whitesmoke;
+
+      } 
+      
+    .logo {
+      width: 50px;
+      margin-right: auto;
+    }
+      
+    .header ul li {
+      list-style: none;
+      display: inline-block;
+      padding: 0px 20px;
+
+    }
+
+    nav ul li a {
+      text-decoration: none;
+      color: rgba(26,18,28,1);
+      font-size: 18px;
+      font-family: "exocet", sans-serif;
+      transition: 0.5s;
+    } 
+
+    nav ul li a:hover {
+    -webkit-text-stroke: 0.5px magenta;
+     color: transparent;
+    }
+
+
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+     
+      grid-auto-flow: dense;
+      grid-gap: 30px; 
+      position: relative;
+      overflow: hidden;
+    }
+
+    .gallery img {
+      
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      transition: transform 0.5s cubic-bezier(0.165, 0.84, 0.44, 1);
+      box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+      
+    }
+
+    
+  </style>
+  <body>
+    <div class="header">
+        <img src="Images/Logo_Smol.png" class="logo">
+        <nav>
+          
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="index.html#second">Gallery</button></a></li>
+            <li><a href="https://www.instagram.com/ley.motion/." target="_blank">Socials</a></li>
+            <li><a href="ContactMe.html">Contact Me!</a></li>
+            <li><a href="Images/SAV_202420_LeEmilyYou_VisIdentity_Resume.png" download>Download CV</a></li>
+          </ul>
+     </div>
+    
+
+    <div class="container">
+      <div class="gallery">
+        <a
+          href="Portfolio Pics/Artboard 1.png"
+          data-lightbox="Graphic Design"
+          data-title="Research:Ghibi, 2024"
+        >
+          <img src="Portfolio Pics/Artboard 1.png" />
+        </a>
+
+        <a
+          href="Portfolio Pics/Artboard 2.png"
+          data-lightbox="Graphic Design"
+          data-title="Research:Lovecraft, 2024"
+        >
+          <img src="Portfolio Pics/Artboard 2.png" />
+        </a>
+
+        <a
+          href="Portfolio Pics/Artboard 3.png"
+          data-lightbox="Graphic Design"
+          data-title="Research:Fromsoftware, 2024"
+        >
+          <img src="Portfolio Pics/Artboard 3.png" />
+        </a>
+
+        <a
+          href="Portfolio Pics/SAV_202420_LeEmilyYou_InspPoster_Final.png"
+          data-lightbox="Graphic Design"
+          data-title="Inspiration Poster, 2024"
+        >
+          <img
+            src="Portfolio Pics/SAV_202420_LeEmilyYou_InspPoster_Final.png"
+          />
+        </a>
+
+        <a
+        href="Portfolio Pics/Logo-old_Cuttlefish - Motion.png"
+        data-lightbox="Graphic Design"
+        data-title="Logo Design - Pepper Pals, 2018"
+      >
+        <img src="Portfolio Pics/Logo-old_Cuttlefish - Motion.png" />
+      </a>
+
+      <a
+        href="Portfolio Pics/Logo-old_Cthulu - Horror Edition.png"
+        data-lightbox="Graphic Design"
+        data-title="Logo Design - Tiger, 2022"
+      >
+        <img src="Portfolio Pics/Logo-old_Cthulu - Horror Edition.png" />
+      </a>
+
+      <a
+      href="Portfolio Pics/LogoConcept_Archival-3Logo_Cthulu - Horror Edition.png"
+      data-lightbox="Graphic Design"
+      data-title="Logo Design - Jackalope, 2024"
+    >
+      <img src="Portfolio Pics/LogoConcept_Archival-3Logo_Cthulu - Horror Edition.png" />
+    </a> 
+
+    <a
+    href="Portfolio Pics/LogoConcept_Archival-3Logo_Jackalope - Motion.png"
+    data-lightbox="Graphic Design"
+    data-title="Logo Design - Jackalope, 2024"
+    >
+    <img src="Portfolio Pics/LogoConcept_Archival-3Logo_Jackalope - Motion.png" />
+    </a>
+
+      </div>
+  
+
+       
+
+    
+
+
+      </div>
+
+    <script src="lightbox-plus-jquery.min.js"></script>
+  </body>
+</html>
